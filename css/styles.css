@@ -1,0 +1,88 @@
+/*
+div{
+  background-color: #eeeeee;
+}
+*/
+/*margins in-built in default browser site*/
+/*make changes using chrome developer tools and copy the code to html for permanent effect*/
+
+body{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+h1{
+    /*width: 20%;*/
+    color:#66bfbf;
+    /*font-size: 50px;   this isn't dynamic sizing ,to make the size dynamic,use %. 100%=16px, or a unit called "em" 1em=16px */
+    /*font-size: 312%;*/
+    /*font-size: 3.125em;*/
+    /*% and em are inherited so if size is specified in body new size will get added to it, making the font bigger
+    so we use "rem"*/
+    font-size: 4.425rem;
+    line-height: 1;/*default*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+  color:#66bfbf;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.ang {
+   background-color: #ccf0e1;        /* #c3edea ;*/                      /* #d3dbff; */
+   padding-top:50px ;
+   position: relative;
+
+}
+
+.pro{
+  text-decoration: underline;
+}
+.middle-container{
+
+}
+.bottom-container{
+
+}
+.bot-cloud{
+  position: absolute;
+  top:250px;
+}
+.top-cloud{
+  position: relative;
+  left:200px;
+  top:15px;
+}
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.pepgif{
+     width:40%;
+     float:right;
+     margin-left: 30px;
+}
+.troll{
+  width:30%;
+  float: left;
+  margin-right: 30px;
+}
+/*clear is like the anti float
+.desc{
+  clear: right;
+}
+*/

@@ -1,0 +1,40 @@
+/*
+div{
+  background-color: #eeeeee;
+}
+*/
+/*margins in-built in default browser site*/
+/*make changes using chrome developer tools and copy the code to html for permanent effect*/
+
+body{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+h1{
+  margin-top: 0;
+}
+
+.ang {
+   background-color: #eeeeee;
+   border: solid 10px;
+   padding: 20px;
+   height: 200px;
+   width: 200px;
+
+}
+.top{
+
+  background-color: red;
+  height: 200px;    width: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+}
+
+.bot{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  margin-left:500px;
+}
